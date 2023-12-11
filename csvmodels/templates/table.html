@@ -1,0 +1,26 @@
+
+{% block content %}
+
+  {% block content_header %}
+    <h2>Costumer</h2>
+  {% endblock %}
+
+  <table class="table mb-0">
+    <thead>
+      <tr>
+        <th>AVG</th>
+        <th>MAX</th>
+        <th>MIN</th>
+        <th>SUM</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>{{ data.avg }}</td>
+          <td>{{ data.max }}</td>
+          <td>{{ data.min }}</td>
+          <td>{{ data.sum }}</td>
+        </tr>
+    </tbody>
+  </table>
+{% endblock %}

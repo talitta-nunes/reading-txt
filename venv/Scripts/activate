@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Talitta\Desktop\M6\reading-txt\csvmodel\venv"
+VIRTUAL_ENV="D:\backup talita\Desktop\KENZIE\M6\reading-txt\csvmodel\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

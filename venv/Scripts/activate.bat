@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Talitta\Desktop\M6\reading-txt\csvmodel\venv
+set VIRTUAL_ENV=D:\backup talita\Desktop\KENZIE\M6\reading-txt\csvmodel\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
