@@ -1,8 +1,8 @@
-# Reading csv app
+# Reading txt app
 
-This is a basic reading csv files.
+This is a basic reading txt file called "CNAB.txt" and inserting at the database
 
-<img width="731" alt="Screenshot 2023-11-17 at 14 26 11" src="https://github.com/ethandiedericks/django_todo/assets/51838346/003c9092-3709-4e24-af1d-56a471b0900e">
+![Alt Text]("C:\Users\USER\Desktop\TALITTA\READINGFILES\TELA INICIAL.png")
 
 
 ## Documentation
