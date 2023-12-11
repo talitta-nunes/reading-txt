@@ -6,11 +6,13 @@ This is a basic reading txt file called "CNAB.txt" and inserting its content at 
 
 **Initial Screen:**
 
-![Initial Screen](https://github.com/talitta-nunes/reading-txt/blob/main/assets/screenshots/initial_screen.png)
+![TELA INICIAL](https://github.com/talitta-nunes/reading-txt/assets/70520439/81dd6e64-0ae5-42a8-8ebb-fb3d9537fcbf)
+
 
 **Success Screen:**
 
-![Success Screen](https://github.com/talitta-nunes/reading-txt/blob/main/assets/screenshots/success_screen.png)
+![tela de sucesso](https://github.com/talitta-nunes/reading-txt/assets/70520439/7a164f5d-e36e-4a16-bc44-7045980f2e1d)
+
 
 **Table:**
 
