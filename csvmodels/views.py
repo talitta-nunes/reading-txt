@@ -1,4 +1,4 @@
-
+from .utils import convert_string_to_number
 from django.shortcuts import HttpResponse, render
 from .models import ClientForm
 from datetime import datetime
@@ -15,7 +15,7 @@ def index(request):
                 fileup = ClientForm.objects.update_or_create(
                     type=item[0:1],
                     date= datetime.strptime(item[1:9], '%Y%m%d').strftime('%m/%d/%Y'),
-                    value=item[9:19],
+                    value=convert_string_to_number(item[9:19]),
                     cpf=item[19:30],
                     card=item[30:42],
                     time=item[42:48],
