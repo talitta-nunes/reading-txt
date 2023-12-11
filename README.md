@@ -2,8 +2,8 @@
 
 This is a basic reading txt file called "CNAB.txt" and inserting at the database
 
-![Alt Text]("C:\Users\USER\Desktop\TALITTA\READINGFILES\TELA INICIAL.png")
 
+![TELA INICIAL](https://github.com/talitta-nunes/reading-txt/assets/70520439/49f6ec0b-c81c-4464-85e3-5f450f08117d)
 
 ## Documentation
 
