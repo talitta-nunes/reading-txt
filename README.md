@@ -9,7 +9,7 @@ This is a basic reading csv files.
 
 Clone this repo:
 ```
-git clone https://github.com/ethandiedericks/django_todo.git
+git clone https://github.com/talitta-nunes/reading-txt.git
 ```
 Change directory into the project directory:
 ```
@@ -17,11 +17,12 @@ cd csvmodel
 ```
 Create a virtual environment:
 ```
-virtualenv env
+python -m venv venv
 ```
 Activate the virtual environment:
 ```
-source env/bin/activate
+Get-ExecutionPolicy
+.\venv\Scripts\activate  
 ```
 Install the required dependencies:
 ```
