@@ -24,6 +24,7 @@ def index(request):
                     store=item[62:81],
                     name=file,
                 )
+                
             return HttpResponse("File uploaded and processed successfully!!")
 
     return render(request, "index.html")
@@ -31,5 +32,9 @@ def index(request):
 def table(request):
     data = ClientForm.objects.aggregate(sum=Round(Sum('value')), max=Max('value'), min=Min('value'), avg=Round(Avg('value')))
     return render(request, 'table.html', {"data": data})
+
+def vision(request):
+    data = ClientForm.objects.all()
+    return render(request, 'vision.html', {"data": data})
 
 
