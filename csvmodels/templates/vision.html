@@ -1,10 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Document</title>
-</head>
-<body>
-    {% for post in data %}
-    <h2>{{post.type}}</h2>
-</body>
-</html>
+{% block content %}
+
+  {% block content_header %}
+    <h2>Transaction</h2>
+  {% endblock %}
+
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+  </style>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Data</th>
+        <th>Value</th>
+        <th>CPF</th>
+        <th>Name</th>
+        <th>Store</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in data %}
+        <tr>
+          <td>{{ item.type }}</td>
+          <td>{{ item.date }}</td>
+          <td>{{ item.value }}</td>
+          <td>{{ item.cpf }}</td>
+          <td>{{ item.hoster }}</td>
+          <td>{{ item.store }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
