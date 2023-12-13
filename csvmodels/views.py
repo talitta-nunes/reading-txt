@@ -3,7 +3,7 @@ from django.db.models import Sum, Avg, Max, Min
 from django.db.models.functions import Round
 from django.shortcuts import HttpResponse, render
 from .models import ClientForm
-from .utils import convert_string_to_number, normalize_type
+from .utils import convert_string_to_number,  normalize_desc, normalize_nature, normalize_signal
 
 # Create your views here.
 def index(request):
@@ -14,7 +14,10 @@ def index(request):
             txt_data = file_contents.split("\n")
             for item in txt_data:
                 ClientForm.objects.update_or_create(
-                    type=normalize_type(item[0:1]),
+                    type=item[0:1],
+                    description =normalize_desc(item[0:1]),
+                    nature = normalize_nature(item[0:1]),
+                    signal = normalize_signal(item[0:1]),
                     date=datetime.strptime(item[1:9], '%Y%m%d').strftime('%m/%d/%Y'),
                     value=convert_string_to_number(item[9:19]),
                     cpf=item[19:30],
