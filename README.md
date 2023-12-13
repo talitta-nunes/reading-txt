@@ -20,8 +20,7 @@ This is a basic reading txt file called "CNAB.txt" and inserting its content at 
 
 **Looking for the /vision url:**
 
-![image](https://github.com/talitta-nunes/reading-txt/assets/70520439/f36f6e7c-0ca5-417c-81b6-baa69748861e)
-
+![image](https://github.com/talitta-nunes/reading-txt/assets/70520439/1237e5e8-dc4a-49bf-bae5-7600724df455)
 
 ## Documentation
 
