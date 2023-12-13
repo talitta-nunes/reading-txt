@@ -18,6 +18,11 @@ This is a basic reading txt file called "CNAB.txt" and inserting its content at 
 
 ![table](https://github.com/talitta-nunes/reading-txt/assets/70520439/f9b23c10-aca6-4b60-9781-84a7c0163eb9)
 
+**Looking for the /vision url:**
+
+![image](https://github.com/talitta-nunes/reading-txt/assets/70520439/f36f6e7c-0ca5-417c-81b6-baa69748861e)
+
+
 ## Documentation
 
 Clone this repo:
