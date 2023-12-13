@@ -30,6 +30,9 @@
     <thead>
       <tr>
         <th>Type</th>
+        <th>Description</th>
+        <th>Nature</th>
+        <th>Signal</th>
         <th>Data</th>
         <th>Value</th>
         <th>CPF</th>
@@ -41,6 +44,9 @@
       {% for item in data %}
         <tr>
           <td>{{ item.type }}</td>
+          <td>{{ item.description }}</td>
+          <td>{{ item.nature }}</td>
+          <td>{{ item.signal }}</td>
           <td>{{ item.date }}</td>
           <td>{{ item.value }}</td>
           <td>{{ item.cpf }}</td>

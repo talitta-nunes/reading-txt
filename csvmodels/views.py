@@ -15,9 +15,9 @@ def index(request):
             for item in txt_data:
                 ClientForm.objects.update_or_create(
                     type=item[0:1],
-                    description =normalize_desc(item[0:1]),
-                    nature = normalize_nature(item[0:1]),
-                    signal = normalize_signal(item[0:1]),
+                    description=normalize_desc(item[0:1]),
+                    nature=normalize_nature(item[0:1]),
+                    signal=normalize_signal(item[0:1]),
                     date=datetime.strptime(item[1:9], '%Y%m%d').strftime('%m/%d/%Y'),
                     value=convert_string_to_number(item[9:19]),
                     cpf=item[19:30],
